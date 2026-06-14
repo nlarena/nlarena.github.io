@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Esteban Nicolás Larena — Full Stack & Systems Engineer</title>
+  <meta name="description" data-es="Desarrollador Full Stack Senior. Construyo productos end-to-end y herramientas a nivel de sistema: una JVM y un compilador." data-en="Senior Full Stack Engineer. I build end-to-end products and systems-level tooling: a JVM and a compiler." content="Desarrollador Full Stack Senior. Construyo productos end-to-end y herramientas a nivel de sistema: una JVM y un compilador." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ===== HEADER (nav + tabs, sticky) ===== -->
+  <header class="header" id="top">
+    <div class="nav-row">
+      <a href="#top" class="nav-brand" title=".NET + Spring Boot"><svg class="leaf" viewBox="0 0 24 24" aria-hidden="true"><path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66.95-2.3c.48.17.98.3 1.34.3C19 20 22 3 22 3c-1 2-8 2.25-13 3.25S2 11.5 2 13.5s1.75 3.75 1.75 3.75C3 11 11.99 9.86 17 8z"/></svg><span class="dot">.</span>NL</a>
+      <button id="lang-toggle" class="lang-toggle" aria-label="Switch language">
+        <span class="lang-opt" data-lang="es">ES</span>
+        <span class="lang-sep">/</span>
+        <span class="lang-opt" data-lang="en">EN</span>
+      </button>
+    </div>
+    <nav class="tabbar" role="tablist">
+      <button class="tab" role="tab" data-tab="about" data-es="Sobre mí" data-en="About">Sobre mí</button>
+      <button class="tab" role="tab" data-tab="experience" data-es="Experiencia" data-en="Experience">Experiencia</button>
+      <button class="tab" role="tab" data-tab="projects" data-es="Proyectos" data-en="Projects">Proyectos</button>
+      <button class="tab" role="tab" data-tab="education" data-es="Educación" data-en="Education">Educación</button>
+      <button class="tab" role="tab" data-tab="contact" data-es="Contacto" data-en="Contact">Contacto</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== HERO (always visible) ===== -->
+    <section class="hero">
+      <p class="hero-eyebrow" data-es="Mercedes, Buenos Aires · Remoto" data-en="Mercedes, Buenos Aires, Argentina · Remote">Mercedes, Buenos Aires · Remoto</p>
+      <h1 class="hero-name">Esteban Nicolás Larena</h1>
+      <p class="hero-tagline">
+        <span class="accent" data-es="Traeme el problema difícil y te lo programo." data-en="Bring me the hard problem and I'll ship it.">Traeme el problema difícil y te lo programo.</span>
+        <span data-es=" Aporto criterio técnico cuando hace falta: hablo cuando el problema lo amerita y ejecuto en silencio cuando no. Construyo mis propios productos end-to-end — plataformas de aprendizaje, videojuegos, un CRM, una JVM y compiladores." data-en=" I bring technical judgment when it matters: I speak up when the problem is worth it and work quietly when it isn't. I build my own end-to-end products — learning platforms, games, a CRM, a JVM, and compilers."> Aporto criterio técnico cuando hace falta: hablo cuando el problema lo amerita y ejecuto en silencio cuando no. Construyo mis propios productos end-to-end — plataformas de aprendizaje, videojuegos, un CRM, una JVM y compiladores.</span>
+      </p>
+      <div class="hero-links">
+        <a class="btn btn-primary" href="https://github.com/nlarena" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/nlarena" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="CV_Larena_ES.pdf" data-es-href="CV_Larena_ES.pdf" data-en-href="CV_Larena_EN.pdf" target="_blank" rel="noopener" data-es="Descargar CV" data-en="Download CV">Descargar CV</a>
+        <a class="btn" href="mailto:nicolas.larena.work@gmail.com" data-es="Email" data-en="Email">Email</a>
+      </div>
+    </section>
+
+    <!-- ===== PANEL: ABOUT ===== -->
+    <section class="panel" id="panel-about" role="tabpanel">
+      <h2 class="section-title"><span class="num">01</span> <span data-es="Sobre mí" data-en="About">Sobre mí</span></h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p data-es="Más de 5 años construyendo software en banca, seguros, energía y retail. Mi nicho es raro: me muevo con la misma comodidad en microservicios modernos que en sistemas legacy de décadas (IBM i, Lansa, RPG)." data-en="5+ years building software across banking, insurance, energy and retail. My niche is an unusual one: I'm equally at home in modern microservices and in decades-old legacy systems (IBM i, Lansa, RPG).">Más de 5 años construyendo software en banca, seguros, energía y retail. Mi nicho es raro: me muevo con la misma comodidad en microservicios modernos que en sistemas legacy de décadas (IBM i, Lansa, RPG).</p>
+          <p data-es="Lo que me distingue es el doble track: soy full-stack y systems. Construyo productos completos (FushiLin, un SaaS en producción) y también tooling de bajo nivel — estoy escribiendo una JVM en Rust desde cero y un compilador de RPG con un IR propio." data-en="What sets me apart is the dual track: I'm full-stack and systems. I build complete products (FushiLin, a SaaS in production) and low-level tooling too — I'm writing a JVM in Rust from scratch and an RPG compiler with its own IR.">Lo que me distingue es el doble track: soy full-stack y systems. Construyo productos completos (FushiLin, un SaaS en producción) y también tooling de bajo nivel — estoy escribiendo una JVM en Rust desde cero y un compilador de RPG con un IR propio.</p>
+          <p data-es="Mi tesis investiga el uso de LLMs aplicados a la generación de código. También fui ayudante de cátedra de Programación durante dos años y medio." data-en="My thesis researches LLMs applied to code generation. I also spent two and a half years as a teaching assistant in Programming.">Mi tesis investiga el uso de LLMs aplicados a la generación de código. También fui ayudante de cátedra de Programación durante dos años y medio.</p>
+        </div>
+        <aside class="about-side">
+          <div class="side-block">
+            <h3 data-es="Stack principal" data-en="Core stack">Stack principal</h3>
+            <ul class="tag-list">
+              <li>Java / Spring Boot</li>
+              <li>.NET</li>
+              <li>Angular / TypeScript</li>
+              <li>Kotlin · Swift</li>
+              <li>Rust</li>
+              <li>SQL Server · PostgreSQL</li>
+              <li>Docker · Kubernetes</li>
+              <li>Azure · GCP</li>
+            </ul>
+          </div>
+          <div class="side-block">
+            <h3 data-es="Idiomas" data-en="Languages">Idiomas</h3>
+            <ul class="lang-block">
+              <li><strong data-es="Español" data-en="Spanish">Español</strong> <span data-es="nativo" data-en="native">nativo</span></li>
+              <li><strong data-es="Japonés" data-en="Japanese">Japonés</strong> <span data-es="JLPT N4 · conversacional (6 meses viviendo en Japón)" data-en="JLPT N4 · conversational (6 months living in Japan)">JLPT N4 · conversacional (6 meses viviendo en Japón)</span></li>
+              <li><strong data-es="Inglés" data-en="English">Inglés</strong> <span data-es="avanzado escrito · intermedio oral" data-en="advanced written · intermediate spoken">avanzado escrito · intermedio oral</span></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===== PANEL: EXPERIENCE ===== -->
+    <section class="panel" id="panel-experience" role="tabpanel" hidden>
+      <h2 class="section-title"><span class="num">02</span> <span data-es="Experiencia" data-en="Experience">Experiencia</span></h2>
+      <div class="timeline">
+
+        <article class="job">
+          <div class="job-head">
+            <h3 data-es="Full Stack Software Engineer" data-en="Full Stack Software Engineer">Full Stack Software Engineer</h3>
+            <span class="job-date">Jun 2025 — <span data-es="Actualidad" data-en="Present">Actualidad</span></span>
+          </div>
+          <p class="job-company">IAM — Instituto Asegurador Mercantil</p>
+          <ul class="job-bullets">
+            <li data-es="Modernización de sistemas core de seguros sobre IBM i (AS/400): migración de RPG a RDMLX, mantenimiento de aplicaciones Lansa (VLF, RAMP) y nuevos servicios en Java/Spring Boot y .NET integrados con el legacy." data-en="Modernizing core insurance systems on IBM i (AS/400): RPG → RDMLX migration, Lansa app maintenance (VLF, RAMP) and new Java/Spring Boot and .NET services integrated with the legacy.">Modernización de sistemas core de seguros sobre IBM i (AS/400): migración de RPG a RDMLX, mantenimiento de aplicaciones Lansa (VLF, RAMP) y nuevos servicios en Java/Spring Boot y .NET integrados con el legacy.</li>
+            <li data-es="Integraciones con organismos fiscales argentinos (AFIP/ARCA) para cumplimiento regulatorio, incluida la traducción de documentación técnica al área contable." data-en="Integrations with Argentine tax authorities (AFIP/ARCA) for regulatory compliance, including translating technical documentation for the accounting team.">Integraciones con organismos fiscales argentinos (AFIP/ARCA) para cumplimiento regulatorio, incluida la traducción de documentación técnica al área contable.</li>
+            <li data-es="Procesos ETL a medida (Lansa, Java, JavaScript) e integración con DB2 for i, SQL Server, MySQL, PostgreSQL y Redis. Administración cross-plataforma de servidores Windows, Linux e IBM i." data-en="Custom ETL processes (Lansa, Java, JavaScript) and integration with DB2 for i, SQL Server, MySQL, PostgreSQL and Redis. Cross-platform administration of Windows, Linux and IBM i servers.">Procesos ETL a medida (Lansa, Java, JavaScript) e integración con DB2 for i, SQL Server, MySQL, PostgreSQL y Redis. Administración cross-plataforma de servidores Windows, Linux e IBM i.</li>
+            <li data-es="Aprendizaje autodidacta de Lansa: nivel productivo en menos de 2 meses pese a la escasa documentación pública. Capacitación técnica continua a un desarrollador del equipo." data-en="Self-taught Lansa: productive in under 2 months despite scarce public documentation. Ongoing technical mentoring of a team developer.">Aprendizaje autodidacta de Lansa: nivel productivo en menos de 2 meses pese a la escasa documentación pública. Capacitación técnica continua a un desarrollador del equipo.</li>
+          </ul>
+          <ul class="stack-row">
+            <li>Java</li><li>Spring Boot</li><li>.NET</li><li>Lansa</li><li>IBM i</li><li>DB2</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <h3 data-es="Freelance Software Engineer" data-en="Freelance Software Engineer">Freelance Software Engineer</h3>
+            <span class="job-date">2022 — <span data-es="Actualidad" data-en="Present">Actualidad</span></span>
+          </div>
+          <p class="job-company" data-es="Independiente" data-en="Independent">Independiente</p>
+          <ul class="job-bullets">
+            <li data-es="En paralelo a mis roles formales, tomo trabajos freelance ocasionales y desarrollo mis propios productos (ver pestaña Proyectos)." data-en="Alongside my formal roles, I take occasional freelance work and build my own products (see the Projects tab).">En paralelo a mis roles formales, tomo trabajos freelance ocasionales y desarrollo mis propios productos (ver pestaña Proyectos).</li>
+            <li data-es="Servicio de autenticación con JWT en .NET + SQL Server para un cliente independiente." data-en="JWT authentication service in .NET + SQL Server for an independent client.">Servicio de autenticación con JWT en .NET + SQL Server para un cliente independiente.</li>
+            <li data-es="Sitios WordPress para diversos clientes pequeños." data-en="WordPress sites for various small clients.">Sitios WordPress para diversos clientes pequeños.</li>
+          </ul>
+          <ul class="stack-row">
+            <li>Spring Boot</li><li>Angular</li><li>Kotlin</li><li>.NET</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <h3 data-es="Backend Software Engineer" data-en="Backend Software Engineer">Backend Software Engineer</h3>
+            <span class="job-date">Ene 2022 — Ene 2024</span>
+          </div>
+          <p class="job-company">Tsoft S.A.</p>
+          <ul class="job-bullets">
+            <li data-es="Aplicaciones .NET (C#) y Java/Spring Boot para clientes enterprise: Banco Hipotecario (Spring Boot), YPF (.NET) y Sancor Seguros (.NET)." data-en=".NET (C#) and Java/Spring Boot applications for enterprise clients: Banco Hipotecario (Spring Boot), YPF (.NET) and Sancor Seguros (.NET).">Aplicaciones .NET (C#) y Java/Spring Boot para clientes enterprise: Banco Hipotecario (Spring Boot), YPF (.NET) y Sancor Seguros (.NET).</li>
+            <li data-es="Diseñé y desarrollé desde cero el sistema de microservicios de YPF en .NET, que gestionaba la aprobación, baja y modificación de equipamiento de sus estaciones de servicio. Ritmo de 10–15 tareas por sprint con 80% de cobertura y quality gates en SonarQube." data-en="Designed and built from scratch YPF's .NET microservices system, handling approval, decommissioning and modification of their service-station equipment. Sustained 10–15 tasks per sprint with 80% coverage and SonarQube quality gates.">Diseñé y desarrollé desde cero el sistema de microservicios de YPF en .NET, que gestionaba la aprobación, baja y modificación de equipamiento de sus estaciones de servicio. Ritmo de 10–15 tareas por sprint con 80% de cobertura y quality gates en SonarQube.</li>
+            <li data-es="Funcionalidades complejas en Angular/TypeScript, resolviendo bloqueos del equipo de frontend en TypeScript avanzado, manejo de estado e integración con backend." data-en="Complex features in Angular/TypeScript, unblocking the frontend team on advanced TypeScript, state management and backend integration.">Funcionalidades complejas en Angular/TypeScript, resolviendo bloqueos del equipo de frontend en TypeScript avanzado, manejo de estado e integración con backend.</li>
+            <li data-es="Autenticación corporativa con Azure AD/OpenID (OAuth2) e integraciones con Microsoft Graph, Google y Azure. Pruebas unitarias (JUnit+Mockito, NUnit) y monitoreo de batch nocturnos con Grafana." data-en="Corporate authentication with Azure AD/OpenID (OAuth2) and integrations with Microsoft Graph, Google and Azure. Unit testing (JUnit+Mockito, NUnit) and Grafana monitoring of nightly batch jobs.">Autenticación corporativa con Azure AD/OpenID (OAuth2) e integraciones con Microsoft Graph, Google y Azure. Pruebas unitarias (JUnit+Mockito, NUnit) y monitoreo de batch nocturnos con Grafana.</li>
+            <li data-es="Resolución de incidentes productivos en sistemas legacy .NET MVC de Sancor Seguros, con comunicación directa con usuarios de negocio y mejoras de performance en procesos pesados." data-en="Production incident resolution on Sancor Seguros' legacy .NET MVC systems, with direct business-user communication and performance improvements on heavy processes.">Resolución de incidentes productivos en sistemas legacy .NET MVC de Sancor Seguros, con comunicación directa con usuarios de negocio y mejoras de performance en procesos pesados.</li>
+          </ul>
+          <ul class="stack-row">
+            <li>.NET</li><li>Spring Boot</li><li>Angular</li><li>Azure</li><li>SQL Server</li><li>SonarQube</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <h3 data-es="Full Stack Software Engineer" data-en="Full Stack Software Engineer">Full Stack Software Engineer</h3>
+            <span class="job-date">Jun 2020 — Dic 2021</span>
+          </div>
+          <p class="job-company">Squad</p>
+          <ul class="job-bullets">
+            <li data-es="Modalidad manpower con asignación paralela a múltiples proyectos: microservicios Spring Boot (Pay per TIC), aplicaciones web .NET / ASP Classic y apps móviles Android nativas en Java." data-en="Staff-augmentation model across multiple parallel projects: Spring Boot microservices (Pay per TIC), .NET / Classic ASP web apps and native Android apps in Java.">Modalidad manpower con asignación paralela a múltiples proyectos: microservicios Spring Boot (Pay per TIC), aplicaciones web .NET / ASP Classic y apps móviles Android nativas en Java.</li>
+            <li data-es="Implementación de BPMS y ETL en BBVA (6 meses): workflows de gestión de mora en Engage (plataforma BPM bancaria) y procesos ETL con SSIS." data-en="BPMS and ETL implementation at BBVA (6 months): debt-management workflows in Engage (banking BPM platform) and ETL processes with SSIS.">Implementación de BPMS y ETL en BBVA (6 meses): workflows de gestión de mora en Engage (plataforma BPM bancaria) y procesos ETL con SSIS.</li>
+            <li data-es="Mentoría a trainees: apoyo a 2 en resolución de problemas algorítmicos (~2 meses) y mentoría directa a 1 en el desarrollo de una app Android nativa (~5 meses)." data-en="Trainee mentoring: supported 2 on algorithmic problem-solving (~2 months) and directly mentored 1 on building a native Android app (~5 months).">Mentoría a trainees: apoyo a 2 en resolución de problemas algorítmicos (~2 meses) y mentoría directa a 1 en el desarrollo de una app Android nativa (~5 meses).</li>
+            <li data-es="Pruebas unitarias y de integración con 100% de cobertura (JUnit+Mockito, NUnit). Autenticación basada en Keycloak (OAuth2 / OpenID Connect)." data-en="Unit and integration testing at 100% coverage (JUnit+Mockito, NUnit). Keycloak-based authentication (OAuth2 / OpenID Connect).">Pruebas unitarias y de integración con 100% de cobertura (JUnit+Mockito, NUnit). Autenticación basada en Keycloak (OAuth2 / OpenID Connect).</li>
+          </ul>
+          <ul class="stack-row">
+            <li>Spring Boot</li><li>.NET</li><li>Android</li><li>Kafka</li><li>Keycloak</li><li>Docker</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <h3 data-es="Ayudante de cátedra — Programación" data-en="Teaching Assistant — Programming">Ayudante de cátedra — Programación</h3>
+            <span class="job-date">2019 — 2023</span>
+          </div>
+          <p class="job-company" data-es="Universidad Nacional de Luján" data-en="National University of Luján">Universidad Nacional de Luján</p>
+          <ul class="job-bullets">
+            <li data-es="Asistencia en la enseñanza de lógica de programación y resolución de ejercicios en Programación I e Introducción a la Programación, durante dos años y medio. Lenguajes: Pascal al inicio, luego Python y C, con uso de Git." data-en="Assisted teaching programming logic and exercise-solving in Programming I and Introduction to Programming, over two and a half years. Languages: Pascal at first, then Python and C, using Git.">Asistencia en la enseñanza de lógica de programación y resolución de ejercicios en Programación I e Introducción a la Programación, durante dos años y medio. Lenguajes: Pascal al inicio, luego Python y C, con uso de Git.</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== PANEL: PROJECTS ===== -->
+    <section class="panel" id="panel-projects" role="tabpanel" hidden>
+      <h2 class="section-title"><span class="num">03</span> <span data-es="Proyectos" data-en="Projects">Proyectos</span></h2>
+      <div class="projects">
+
+        <!-- FushiLin -->
+        <article class="project">
+          <div class="project-head">
+            <h3>FushiLin</h3>
+            <span class="badge badge-live" data-es="En producción" data-en="In production">En producción</span>
+          </div>
+          <p data-es="SaaS de aprendizaje de vocabulario japonés. Spring Boot + Angular + Android nativo (Kotlin) sobre GCP. Pagos duales Mercado Pago + Paddle, resolviendo las restricciones argentinas de cobro al exterior. App iOS (Swift/SwiftUI) en desarrollo." data-en="Japanese vocabulary-learning SaaS. Spring Boot + Angular + native Android (Kotlin) on GCP. Dual Mercado Pago + Paddle payments, solving Argentine cross-border revenue restrictions. iOS app (Swift/SwiftUI) in development.">SaaS de aprendizaje de vocabulario japonés. Spring Boot + Angular + Android nativo (Kotlin) sobre GCP. Pagos duales Mercado Pago + Paddle, resolviendo las restricciones argentinas de cobro al exterior. App iOS (Swift/SwiftUI) en desarrollo.</p>
+          <ul class="stack-row">
+            <li>Spring Boot</li><li>Angular</li><li>Kotlin</li><li>Swift</li><li>GCP</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://fushitelingua.com" target="_blank" rel="noopener">fushitelingua.com ↗</a>
+          </div>
+        </article>
+
+        <!-- JDK en Rust -->
+        <article class="project">
+          <div class="project-head">
+            <h3 data-es="JDK en Rust desde cero" data-en="JDK in Rust from scratch">JDK en Rust desde cero</h3>
+            <span class="badge badge-dev" data-es="En desarrollo" data-en="In development">En desarrollo</span>
+          </div>
+          <p data-es="Reimplementación del núcleo de la plataforma Java en Rust. Está organizado en componentes independientes:" data-en="A from-scratch reimplementation of the Java platform core in Rust. It's organized into independent components:">Reimplementación del núcleo de la plataforma Java en Rust. Está organizado en componentes independientes:</p>
+          <ul class="components">
+            <li class="component done">
+              <span class="comp-status" data-es="Listo" data-en="Done">Listo</span>
+              <div>
+                <strong data-es="Compilador (javac)" data-en="Compiler (javac)">Compilador (javac)</strong>
+                <span data-es="javac propio que produce bytecode JVM a partir de código Java." data-en="An own javac that produces JVM bytecode from Java source.">javac propio que produce bytecode JVM a partir de código Java.</span>
+              </div>
+            </li>
+            <li class="component done">
+              <span class="comp-status" data-es="Listo" data-en="Done">Listo</span>
+              <div>
+                <strong data-es="JVM — ejecución de bytecode" data-en="JVM — bytecode execution">JVM — ejecución de bytecode</strong>
+                <span data-es="Máquina virtual que ejecuta bytecode real, incluyendo programas no triviales." data-en="A virtual machine that runs real bytecode, including non-trivial programs.">Máquina virtual que ejecuta bytecode real, incluyendo programas no triviales.</span>
+              </div>
+            </li>
+            <li class="component done">
+              <span class="comp-status" data-es="Listo" data-en="Done">Listo</span>
+              <div>
+                <strong data-es="GC mark-compact" data-en="Mark-compact GC">GC mark-compact</strong>
+                <span data-es="Recolector de basura propio de tipo mark-compact." data-en="An own mark-compact garbage collector.">Recolector de basura propio de tipo mark-compact.</span>
+              </div>
+            </li>
+            <li class="component done">
+              <span class="comp-status" data-es="Listo" data-en="Done">Listo</span>
+              <div>
+                <strong data-es="javap — 99% de paridad" data-en="javap — 99% parity">javap — 99% de paridad</strong>
+                <span data-es="Herramienta javap con 99% de paridad de salida frente a OpenJDK 25." data-en="A javap tool with 99% output parity against OpenJDK 25.">Herramienta javap con 99% de paridad de salida frente a OpenJDK 25.</span>
+              </div>
+            </li>
+            <li class="component dev">
+              <span class="comp-status" data-es="En desarrollo" data-en="In dev">En desarrollo</span>
+              <div>
+                <strong data-es="Concurrencia — threads y GC multihilo" data-en="Concurrency — threads & multithreaded GC">Concurrencia — threads y GC multihilo</strong>
+                <span data-es="Modelo de concurrencia y recolección de basura en entornos multihilo." data-en="Concurrency model and garbage collection under multithreaded workloads.">Modelo de concurrencia y recolección de basura en entornos multihilo.</span>
+              </div>
+            </li>
+            <li class="component dev">
+              <span class="comp-status" data-es="En desarrollo" data-en="In dev">En desarrollo</span>
+              <div>
+                <strong data-es="Demás tools (jdb, etc.)" data-en="Remaining tools (jdb, etc.)">Demás tools (jdb, etc.)</strong>
+                <span data-es="Resto del toolchain (depurador jdb y otras herramientas) y verificación de compatibilidad con Java 25." data-en="The rest of the toolchain (jdb debugger and others) and Java 25 compatibility verification.">Resto del toolchain (depurador jdb y otras herramientas) y verificación de compatibilidad con Java 25.</span>
+              </div>
+            </li>
+          </ul>
+          <p class="project-note" data-es="Las librerías estándar provienen de OpenJDK (no reimplementadas). El núcleo —compilador, JVM y GC— es de desarrollo propio." data-en="The standard libraries come from OpenJDK (not reimplemented). The core — compiler, JVM and GC — is my own work.">Las librerías estándar provienen de OpenJDK (no reimplementadas). El núcleo —compilador, JVM y GC— es de desarrollo propio.</p>
+          <ul class="stack-row">
+            <li>Rust</li><li>JVM bytecode</li><li>GC</li><li>javac</li>
+          </ul>
+        </article>
+
+        <!-- BoxBreaker -->
+        <article class="project">
+          <div class="project-head">
+            <h3>BoxBreaker (BBK)</h3>
+            <span class="badge badge-live" data-es="Plugin publicado" data-en="Plugin published">Plugin publicado</span>
+          </div>
+          <p data-es="Compilador de RPG (IBM i / AS&#47;400) que traduce el código a un lenguaje intermedio propio (BBK), con la meta de hacer RPG portable fuera del hardware IBM. Está organizado en componentes independientes:" data-en="An RPG (IBM i / AS&#47;400) compiler that translates code into a custom intermediate language (BBK), aiming to make RPG portable beyond IBM hardware. It's organized into independent components:">Compilador de RPG (IBM i / AS/400) que traduce el código a un lenguaje intermedio propio (BBK), con la meta de hacer RPG portable fuera del hardware IBM. Está organizado en componentes independientes:</p>
+          <ul class="components">
+            <li class="component done">
+              <span class="comp-status" data-es="Listo" data-en="Done">Listo</span>
+              <div>
+                <strong data-es="Front-end RPG → BBK" data-en="RPG → BBK front-end">Front-end RPG → BBK</strong>
+                <span data-es="Lexer, parser y AST que compilan código RPG al IR propio (BBK). Cubierto por 63 tests." data-en="Lexer, parser and AST that compile RPG source into the custom IR (BBK). Covered by 63 tests.">Lexer, parser y AST que compilan código RPG al IR propio (BBK). Cubierto por 63 tests.</span>
+              </div>
+            </li>
+            <li class="component done">
+              <span class="comp-status" data-es="Listo" data-en="Done">Listo</span>
+              <div>
+                <strong data-es="Backend JVM" data-en="JVM backend">Backend JVM</strong>
+                <span data-es="Genera bytecode JVM ejecutable a partir de BBK usando la librería ASM." data-en="Generates executable JVM bytecode from BBK using the ASM library.">Genera bytecode JVM ejecutable a partir de BBK usando la librería ASM.</span>
+              </div>
+            </li>
+            <li class="component done">
+              <span class="comp-status" data-es="Listo" data-en="Done">Listo</span>
+              <div>
+                <strong data-es="Backend C" data-en="C backend">Backend C</strong>
+                <span data-es="Transpila BBK a C99. Cubre aproximadamente el 85% del lenguaje." data-en="Transpiles BBK to C99. Covers roughly 85% of the language.">Transpila BBK a C99. Cubre aproximadamente el 85% del lenguaje.</span>
+              </div>
+            </li>
+            <li class="component done">
+              <span class="comp-status" data-es="Publicado" data-en="Published">Publicado</span>
+              <div>
+                <strong data-es="Plugin de IntelliJ" data-en="IntelliJ plugin">Plugin de IntelliJ</strong>
+                <span data-es="Publicado en JetBrains Marketplace (v1.0.0, 72 tests): highlighting, autocompletado type-aware, inspecciones, navegación cross-file y refactoring." data-en="Published on the JetBrains Marketplace (v1.0.0, 72 tests): highlighting, type-aware completion, inspections, cross-file navigation and refactoring.">Publicado en JetBrains Marketplace (v1.0.0, 72 tests): highlighting, autocompletado type-aware, inspecciones, navegación cross-file y refactoring.</span>
+                <a class="comp-link" href="https://plugins.jetbrains.com/plugin/32288" target="_blank" rel="noopener" data-es="Ver en JetBrains Marketplace ↗" data-en="View on JetBrains Marketplace ↗">Ver en JetBrains Marketplace ↗</a>
+              </div>
+            </li>
+            <li class="component dev">
+              <span class="comp-status" data-es="En desarrollo" data-en="In dev">En desarrollo</span>
+              <div>
+                <strong data-es="Runtime IBM i" data-en="IBM i runtime">Runtime IBM i</strong>
+                <span data-es="Capa de runtime para reproducir la semántica nativa de IBM i fuera del hardware original." data-en="Runtime layer to reproduce native IBM i semantics off the original hardware.">Capa de runtime para reproducir la semántica nativa de IBM i fuera del hardware original.</span>
+              </div>
+            </li>
+            <li class="component dev">
+              <span class="comp-status" data-es="En desarrollo" data-en="In dev">En desarrollo</span>
+              <div>
+                <strong data-es="Pipeline end-to-end" data-en="End-to-end pipeline">Pipeline end-to-end</strong>
+                <span data-es="Encadenado completo RPG → ejecutable, con verificación de equivalencia." data-en="Full RPG → executable chain, with equivalence verification.">Encadenado completo RPG → ejecutable, con verificación de equivalencia.</span>
+              </div>
+            </li>
+          </ul>
+          <ul class="stack-row">
+            <li>Kotlin</li><li>ASM</li><li>C99</li><li>IntelliJ SDK</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://plugins.jetbrains.com/plugin/32288" target="_blank" rel="noopener" data-es="Plugin en Marketplace ↗" data-en="Plugin on Marketplace ↗">Plugin en Marketplace ↗</a>
+            <a href="https://github.com/nlarena/rpg-bbk-compiler" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </article>
+
+        <!-- CRM -->
+        <article class="project">
+          <div class="project-head">
+            <h3 data-es="CRM propio" data-en="Own CRM">CRM propio</h3>
+            <span class="badge badge-dev" data-es="En curso" data-en="In progress">En curso</span>
+          </div>
+          <p data-es="Desarrollo de un sistema CRM desde cero." data-en="Building a CRM system from scratch.">Desarrollo de un sistema CRM desde cero.</p>
+        </article>
+
+        <!-- Unreal game -->
+        <article class="project">
+          <div class="project-head">
+            <h3 data-es="Juego educativo en Unreal Engine" data-en="Educational game in Unreal Engine">Juego educativo en Unreal Engine</h3>
+            <span class="badge badge-dev" data-es="En desarrollo" data-en="In development">En desarrollo</span>
+          </div>
+          <p data-es="Juego para aprendizaje de idiomas en C++ y Blueprints. Arquitectura distribuida con microservicios Spring Boot y .NET sobre SQL Server." data-en="Language-learning game in C++ and Blueprints. Distributed architecture with Spring Boot and .NET microservices over SQL Server.">Juego para aprendizaje de idiomas en C++ y Blueprints. Arquitectura distribuida con microservicios Spring Boot y .NET sobre SQL Server.</p>
+          <ul class="stack-row">
+            <li>C++</li><li>Unreal</li><li>Spring Boot</li><li>.NET</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== PANEL: EDUCATION ===== -->
+    <section class="panel" id="panel-education" role="tabpanel" hidden>
+      <h2 class="section-title"><span class="num">04</span> <span data-es="Educación" data-en="Education">Educación</span></h2>
+      <div class="timeline">
+
+        <article class="job">
+          <div class="job-head">
+            <h3 data-es="Licenciatura en Sistemas de Información" data-en="B.Sc. in Information Systems">Licenciatura en Sistemas de Información</h3>
+            <span class="job-date">2017 — <span data-es="Actualidad" data-en="Present">Actualidad</span></span>
+          </div>
+          <p class="job-company" data-es="Universidad Nacional de Luján" data-en="National University of Luján">Universidad Nacional de Luján</p>
+          <ul class="job-bullets">
+            <li data-es="Cursada completa, todas las asignaturas aprobadas. Tesis en curso sobre IA generativa aplicada a la generación de código (entrega estimada: septiembre 2026). Considerando continuar con un doctorado en informática." data-en="All coursework completed, every subject passed. Thesis in progress on generative AI applied to code generation (estimated delivery: September 2026). Considering a PhD in computer science.">Cursada completa, todas las asignaturas aprobadas. Tesis en curso sobre IA generativa aplicada a la generación de código (entrega estimada: septiembre 2026). Considerando continuar con un doctorado en informática.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <h3 data-es="Analista Programador Universitario" data-en="University Programmer Analyst">Analista Programador Universitario</h3>
+            <span class="job-date">2017 — 2024</span>
+          </div>
+          <p class="job-company" data-es="Universidad Nacional de Luján · título intermedio" data-en="National University of Luján · intermediate degree">Universidad Nacional de Luján · título intermedio</p>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <h3 data-es="Abogacía" data-en="Law">Abogacía</h3>
+            <span class="job-date">2012 — 2016</span>
+          </div>
+          <p class="job-company" data-es="Universidad de Buenos Aires · pausada" data-en="University of Buenos Aires · paused">Universidad de Buenos Aires · pausada</p>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <h3 data-es="Formación complementaria" data-en="Additional training">Formación complementaria</h3>
+          </div>
+          <ul class="job-bullets">
+            <li data-es="Workflow continuo de desarrollo, testing y producción (WFC) — Microways, 2021." data-en="Continuous development, testing and production workflow (WFC) — Microways, 2021.">Workflow continuo de desarrollo, testing y producción (WFC) — Microways, 2021.</li>
+            <li data-es="Diseños interactivos centrados en el usuario (UX) — Congreso Argentino de Ciencias de la Computación, 2020." data-en="User-centered interactive design (UX) — Argentine Congress of Computer Science, 2020.">Diseños interactivos centrados en el usuario (UX) — Congreso Argentino de Ciencias de la Computación, 2020.</li>
+            <li data-es="Creación profesional de microservicios — MUG, 2020." data-en="Professional microservices development — MUG, 2020.">Creación profesional de microservicios — MUG, 2020.</li>
+            <li data-es="TDD, Hibernate y Spring — UNLu, 2019." data-en="TDD, Hibernate and Spring — UNLu, 2019.">TDD, Hibernate y Spring — UNLu, 2019.</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== PANEL: CONTACT ===== -->
+    <section class="panel panel-contact" id="panel-contact" role="tabpanel" hidden>
+      <h2 class="section-title"><span class="num">05</span> <span data-es="Contacto" data-en="Contact">Contacto</span></h2>
+      <p class="contact-lead" data-es="¿Trabajamos juntos? Estoy abierto a oportunidades." data-en="Want to work together? I'm open to opportunities.">¿Trabajamos juntos? Estoy abierto a oportunidades.</p>
+      <div class="hero-links">
+        <a class="btn btn-primary" href="mailto:nicolas.larena.work@gmail.com">nicolas.larena.work@gmail.com</a>
+        <a class="btn" href="https://github.com/nlarena" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/nlarena" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year">2026</span> Esteban Nicolás Larena · <span data-es="Hecho con HTML y CSS, sin frameworks." data-en="Built with plain HTML and CSS, no frameworks.">Hecho con HTML y CSS, sin frameworks.</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
